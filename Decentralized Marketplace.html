@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Marketplace</title>
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.0.0/dist/ethers.umd.min.js"></script>
+    <script src="DM.js"></script>
+</head>
+
+<body>
+    <h1>Decentralized Marketplace</h1>
+
+    <h2>List a Product</h2>
+    <input type="text" id="productName" placeholder="Product Name">
+    <input type="text" id="productDescription" placeholder="Product Description">
+    <input type="number" id="productPrice" placeholder="Price in ETH">
+    <button onclick="listProduct()">List Product</button>
+
+    <h2>Buy a Product</h2>
+    <input type="number" id="productId" placeholder="Product ID">
+    <button onclick="buyProduct()">Buy Product</button>
+
+
+</body>
+
+</html>
